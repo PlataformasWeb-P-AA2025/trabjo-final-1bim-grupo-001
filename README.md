@@ -1,6 +1,12 @@
 
 # Mini Proyecto: FutRedX – La Red de Fútbol de la Premier League
 
+## Avances
+
+Se realizó la creación de las tablas "usuario", "publicacion" y "reaccion", respetando las relaciones definidas en los requisitos funcionales.
+Para el ingreso de datos se utilizaron los archivos CSV: "usuarios_red_x.csv", "usuarios_publicaciones.csv" y "usuario_publicacion_emocion.csv".
+La carga se implementó mediante estructuras with open() junto con csv.DictReader, recorriendo cada fila para instanciar objetos correspondientes, los cuales fueron añadidos a la sesión de SQLAlchemy y posteriormente guardados en la base de datos mediante session.commit().
+
 ## Contexto
 
 Un grupo de estudiantes apasionados por el fútbol ha creado *FutRedX*, una red social ficticia dedicada exclusivamente a compartir opiniones, noticias y momentos sobre la **Premier League inglesa**. Los usuarios pueden publicar frases, comentar eventos deportivos, y reaccionar a las publicaciones de otros.
