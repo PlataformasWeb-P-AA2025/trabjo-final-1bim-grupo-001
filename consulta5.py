@@ -8,7 +8,7 @@ engine = create_engine(cadena_base_datos)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-print("Consulta: Número de reacciones por usuario\n")
+print("Consulta: Número de reacciones por usuario:\n")
 
 resultados = (
     session.query(Usuario.nombre_usuario, func.count(Reaccion.id).label("total_reacciones"))#usamos func para poder contar
