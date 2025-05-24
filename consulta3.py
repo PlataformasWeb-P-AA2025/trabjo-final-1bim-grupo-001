@@ -8,7 +8,7 @@ engine = create_engine(cadena_base_datos)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-print("3. Conteo de cada tipo de reacción usada\n")
+print("Conteo de cada tipo de reacción usada\n")
 from sqlalchemy import func
 resultados = session.query(
     Reaccion.tipo_reaccion,
