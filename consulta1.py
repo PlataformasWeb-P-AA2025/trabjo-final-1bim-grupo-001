@@ -10,7 +10,7 @@ engine = create_engine(cadena_base_datos)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-print("1. Publicaciones de un usuario específico (este caso: Karen)\n")
+print("Publicaciones de un usuario específico (este caso: Karen)\n")
 usuario = session.query(Usuario).filter_by(nombre_usuario="Karen").first()
 if usuario:
     for pub in usuario.publicaciones:
