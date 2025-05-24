@@ -10,7 +10,7 @@ engine = create_engine(cadena_base_datos)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-print("2. Reacciones a una publicación específica\n")
+print("Reacciones a una publicación específica\n")
 contenido = "Bruno Fernandes del Liverpool fue expulsado por doble amarilla en el debut de la temporada."
 publicacion = session.query(Publicacion).filter_by(contenido=contenido).first()
 if publicacion:
