@@ -20,7 +20,7 @@ resultado = (
     .first()  # solo el de mayor número
 )
 
-# Mostrar resultado
+
 print("Usuario con más publicaciones:")
 if resultado:
     print(f"Usuario: {resultado.nombre_usuario}")
