@@ -4,7 +4,7 @@ import csv
 
 # se importa la clase(s) del 
 # archivo genera_tablas
-from generar_tablas import Usuario, Publicacion, Reaccion
+from Generar_tablas import Usuario, Publicacion, Reaccion
 
 # se importa información del archivo configuracion
 from configuracion import cadena_base_datos
