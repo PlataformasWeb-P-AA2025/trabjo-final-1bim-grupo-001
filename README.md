@@ -1,5 +1,9 @@
 
 # Mini Proyecto: FutRedX – La Red de Fútbol de la Premier League
+## Integrantes
+-Erick Gaona
+
+-Dara Van Gijsel
 
 ## Avances
 
