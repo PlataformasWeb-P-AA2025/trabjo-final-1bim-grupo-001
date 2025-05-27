@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, func
 from sqlalchemy.orm import sessionmaker
-from generar_tablas import Publicacion, Reaccion
+from Generar_tablas import Publicacion, Reaccion
 from configuracion import cadena_base_datos
 
 # conexión a la base de datos

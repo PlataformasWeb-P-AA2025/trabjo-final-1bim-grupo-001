@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from configuracion import cadena_base_datos
 
 # importamos las clases ORM necesarias
-from generar_tablas import Usuario, Publicacion, Reaccion
+from Generar_tablas import Usuario, Publicacion, Reaccion
 
 # creamos el engine y la sesión
 engine = create_engine(cadena_base_datos)
