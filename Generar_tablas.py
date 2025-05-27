@@ -1,5 +1,6 @@
 from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, UniqueConstraint
-from sqlalchemy.ext.declarative import declarative_base
+#from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base # Importando declarative_base SQLAlchemy 2.0 cambió de APIs
 from sqlalchemy.orm import relationship
 from configuracion import cadena_base_datos
 
